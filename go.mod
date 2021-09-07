@@ -1,4 +1,4 @@
-module github.com/5anthosh/chili
+module github.com/walkmiao/chili
 
 go 1.15
 

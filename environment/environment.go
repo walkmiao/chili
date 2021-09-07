@@ -88,9 +88,9 @@ func (e *Environment) SetInt32Variable(name string, value int32) error {
 
 //DeclareVariable in the environment
 func (e *Environment) DeclareVariable(name string, value interface{}) error {
-	if e.CheckSymbolTable(name) {
-		return fmt.Errorf("%s is already declared", name)
-	}
+	// if e.CheckSymbolTable(name) {
+	// 	return fmt.Errorf("%s is already declared", name)
+	// }
 	e.symbolTableEntry(name, variableType)
 	e.variables[name] = value
 	return nil
