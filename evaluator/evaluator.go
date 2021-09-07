@@ -4,11 +4,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/5anthosh/chili/environment"
 	"github.com/5anthosh/chili/evaluator/datatype"
 	"github.com/5anthosh/chili/parser/ast/expr"
 	"github.com/5anthosh/chili/parser/token"
 	"github.com/shopspring/decimal"
+	"github.com/walkmiao/chili/environment"
 )
 
 //errors
